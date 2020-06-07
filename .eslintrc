@@ -7,7 +7,7 @@
   },
   "rules": {
     "linebreak-style": "off",
-    "semi":"off",
+    "semi": "off",
     "camelcase": "off",
     "max-len": "off",
     "no-unused-expressions": "warn",
@@ -16,9 +16,13 @@
     "no-use-before-define": "off",
     "quotes": "off",
     "object-curly-spacing": "off",
+    "require-jsdoc": "off",
+    "arrow-parens": "off",
+    "operator-linebreak": "off",
+    "comma-dangle":"off"
   },
   "extends": ["eslint:recommended", "google"],
   "parserOptions": {
     "sourceType": "module"
-}
+  }
 }
